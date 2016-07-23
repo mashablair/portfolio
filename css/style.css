@@ -1,0 +1,47 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #747704;
+    font-weight: 300;
+}
+
+.text-muted {
+    color: #bcbbbb;
+}
+
+.text-thin {
+    font-weight: 100;
+}
+
+.title-super {
+    font-size: 60px;
+}
+
+.title-logo {
+    margin-top: 20px;
+}
+
+/* Logo */
+svg#logo {
+  fill: #bcbbbb;
+  height: 6vw;
+  margin: 25px auto 0.5em auto; /* top right bottom left -- shorthand */
+  width: 6vw;
+}
+
+#social {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*Social Media Icons*/
+/* zocial */
+  [class*="zocial-"]:before {
+    font-family: 'zocial', sans-serif;
+    display: inline-block;
+    text-shadow: 3px 3px 3px #aaa;
+    color: #23527c;
+    padding-right: 10px;
+    padding-left: 20px;
+    font-size: 1.5em;
+  }

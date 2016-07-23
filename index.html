@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- To ensure proper rendering and touch zooming -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap Portfolio</title> <!-- added by Jacques -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+
+  <!-- <script src="js/jquery-3.0.0.min.js"></script> I downloaded this one.  I also downloaded 'jquery-3.0.0.min.js' file and put both in my /js folder.  -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script> <!-- Google CDN for my Modals - I'm using this one instead of the one I downloaded -->
+
+  <script src="js/bootstrap.min.js"></script>
+
+<!-- Social Media Icons! -->
+  <style>
+    @import url(http://weloveiconfonts.com/api/?family=zocial);
+  </style>
+
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <!-- <img src="http://placekitten.com/100/100" class="title-logo" alt="Logo"> -->
+          <a href="//github.com/udacity/responsive-images/" title="Home page for course examples">
+            <svg id="logo" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <title>Responsive logo</title>
+              <path d="M20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69zM12 18c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6zm0-10c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4z"></path>
+            </svg>
+          </a>
+        </div>
+        <div class="col-md-6 text-right text-uppercase"">  <!-- Makes our text aligned to the right and uppercased! -->
+          <h1 class="title-super text-thin">Maria Blair</h1>
+          <h4>Front-end Ninja</h4>
+        </div>
+      </div>
+
+      <div class="row">
+          <div class="col-md-12"><hr style="border: none; border-bottom: 2px solid #bcbbbb;"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12"><img src="http://placekitten.com/1140/350" alt="Big Central Image" class="img-responsive"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12"><h2 class="text-muted">Featured Work</h2></div>
+      </div>
+
+      <div class="row text-center">
+        <div class="col-md-6">
+          <img src="http://placekitten.com/555/300" class="img-responsive" alt="1st Small Picture" data-toggle="modal" data-target="#project1">
+          <h3 class="text-uppercase">Appify</h3>
+          <p><a href="http://github.com/">Link to project</a></p>
+        </div>
+
+        <div class="col-md-6">
+          <img src="http://placekitten.com/555/300" class="img-responsive" alt="2nd Small Picture" data-toggle="modal" data-target="#project2">
+          <h3 class="text-uppercase">Appify</h3>
+          <p><a href="http://github.com/">Link to project</a></p>
+        </div>
+      </div>
+
+      <div class="row text-center">
+        <div class="col-md-6">
+          <img src="http://placekitten.com/555/300" class="img-responsive" alt="3rd Small Picture" data-toggle="modal" data-target="#project3">
+          <h3 class="text-uppercase">Appify</h3>
+          <p><a href="http://github.com/">Link to project</a></p>
+        </div>
+
+        <div class="col-md-6">
+          <img src="http://placekitten.com/555/300" class="img-responsive" alt="4th Small Picture" data-toggle="modal" data-target="#project4">
+          <h3 class="text-uppercase">Appify</h3>
+          <p><a href="http://github.com/">Link to project</a></p>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Modal 1 -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Mockup to Article</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="http://placekitten.com/555/300" class="img-responsive" alt="1st Project Small Picture" data-toggle="modal" data-target="#project1">
+                    This was my first project in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END of modal 1 -->
+
+    <!-- Modal 2 -->
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Animal Trading Card</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="http://placekitten.com/555/300" class="img-responsive" alt="2nd Project Small Picture" data-toggle="modal" data-target="#project2">
+                    This was my second project in this class. I learned a lot about CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END of modal 2 -->
+
+    <!-- Modal 3 -->
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="http://placekitten.com/555/300" class="img-responsive" alt="3rd Project Small Picture" data-toggle="modal" data-target="#project2">
+                    This was my third project in this class. I learned more about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END of modal 3 -->
+
+    <!-- Modal 4 -->
+    <div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Portfolio</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="http://placekitten.com/555/300" class="img-responsive" alt="4th Project Small Picture" data-toggle="modal" data-target="#project2">
+                    This was my third project in this class. I learned about Bootstrap and Responsive Layouts.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END of modal 4 -->
+
+    <footer>
+      <div id="social">
+          <a href="https://twitter.com" class="zocial-twitter">Twitter</a>
+          <a href="https://facebook.com" class="zocial-facebook">Facebook</a>
+          <a href="https://plus.google.com" class="zocial-googleplus">Google+</a>
+      </div>
+
+    </footer>
+
+  </body>
+  </html>
+
+
